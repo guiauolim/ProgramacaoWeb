@@ -1,0 +1,48 @@
+p#nome{
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+}    
+
+p#email{
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+    
+}    
+
+p#telefone{
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+    
+}    
+
+p#profissao{
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+    
+}    
+
+
+p#sexo{
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+    
+}    
+
+div#blocoInfo {
+    text-align: center ;
+    border-style: ridge;
+    padding: 50px;
+    width: max-content;
+    margin: auto;
+
+    
+}
+
+div#blocoInfo {
+    background: rgb(207, 207, 207);
+}

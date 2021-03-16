@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="blocoInfo">
+    <p id="nome"><strong>Nome:</strong> <input type="text" name="txtNome" id="txtNome" maxlength="50" size="50"></p>
+    <p id="email"><strong>E-mail:</strong> <input type="email" name="txtEmail" id="txtEmail" maxlength="30" size="30"></p>
+    
+    <p id="telefone"><strong>Telefone:</strong> 
+
+        <input type="number" name="txtTel" id="txtTel" maxlength="11">
+    </p>
+
+    <p id="profissao" ><strong>Profissão:</strong> <select name="txtPro" id="txtPro">
+        <option value=""></option>
+        <option value="1">Administrador</option>
+        <option value="2">Advogado</option>
+        <option value="3">Matemático</option>
+        <option value="4">Professor</option>
+        <option value="5">Analista de Sistemas</option>
+        <option value="6">Médico</option>
+
+    </select></p>   
+
+    <p id="sexo"> <strong>Sexo:</strong> <input type="radio" name="txtsexo" id="fem" > Feminino
+                  <input type="radio" name="txtsexo" id="mas" > Masculino
+    </p>
+   
+    <p id="btn"><input type="button" value="Enviar" id='01'></p>
+    </div>
+</body>
+</html>
